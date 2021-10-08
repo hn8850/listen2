@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="40"
-                android:rotationY="180"
+                android:rotation="180"
                 android:text="player 1"
                 app:backgroundTint="#2196F3" />
 
