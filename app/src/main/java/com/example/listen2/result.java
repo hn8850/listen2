@@ -27,7 +27,7 @@ public class result extends AppCompatActivity {
         x2 = findViewById(R.id.x2);
         win = findViewById(R.id.win);
         back = findViewById(R.id.back);
-
+        win.setText("");
 
 
         x1.setText("Player 1 result is " + num1);
@@ -37,7 +37,7 @@ public class result extends AppCompatActivity {
         {
             win.setText("The winner is Player 1!!!!!!" );
         }
-        else
+        else if (num1<num2)
         {
             win.setText("The winner is Player 2!!!!!!" );
         }
